@@ -37,7 +37,7 @@ def get_filters():
         if day in ('All','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'):
             break
         else: print("\n Wrong day name \n") 
-    print("\n you select {} city, {} month, {} as day of week".format(city,month,day))
+    print("\n you select {} city, {} month, {} as day of week".format(city,month,day)) #print the selection be for calculating
     print('-'*40)
     return city, month, day
 
